@@ -3,6 +3,12 @@ A comprehensive blog about this project has been published throgh story maps [HE
 
 Random Forest Classification for Land Use Change in Gaborone, Botswana
 
+### Land Use Land Cover (LULC) Change VS Land Surface Temperature (LST)
+<img width="1235" alt="Screenshot 2024-01-08 at 14 49 55" src="https://github.com/BoineeloMoyo/Gaborone_LULC_change/assets/82944675/02c17a58-c4a5-43eb-9b1a-359db1ea4e8f">
+
+<img width="1237" alt="Screenshot 2024-01-08 at 14 50 17" src="https://github.com/BoineeloMoyo/Gaborone_LULC_change/assets/82944675/fd410413-2f4d-4f30-8492-9e8a43ea6a1a">
+
+
 This repository contains code for performing land use change classification using random forest algorithm in the Google Earth Engine platform.
 The classification is done using Landsat 8 and Landsat 7 imagery for the years 2005, 2010, 2015, and 2020. The study area for this analysis is Gaborone, the capital city of Botswana.
 
