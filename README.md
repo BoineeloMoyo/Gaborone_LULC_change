@@ -24,10 +24,10 @@ The classification is done using Landsat 8 and Landsat 7 imagery for the years 2
 
 - Built-up
 - Water
-- Soil
-- Agriculture
+- Soil 
+- Agriculture  
 - Dense Vegetation
-- Mixed Grassland
+- Mixed Grassland 
 
 The random forest model was trained using labeled samples from the different land use classes. Feature selection techniques and preprocessing steps were applied to prepare the input data for the classification model.
 
