@@ -1,5 +1,5 @@
 # Gaborone_LULC_change
-A comprehensive blog about this project has been published throgh story maps [HERE](https://storymaps.com/stories/8f482da3617043c7ba24aa54ee844b42)
+A comprehensive blog about this project has been published throgh a story map [HERE](https://storymaps.com/stories/8f482da3617043c7ba24aa54ee844b42)
 
 Random Forest Classification for Land Use Change in Gaborone, Botswana
 
