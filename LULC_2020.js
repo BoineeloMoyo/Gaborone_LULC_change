@@ -106,7 +106,6 @@ var landsat8Classifier = function (startDate, endDate) {
 
   //Randomly split the samples to set some aside for testing the model's accuracy
   //using the "random" column. Roughly 80% for training, 20% for testing.
-
   var training = points.filter(ee.Filter.lt("random", SPLIT)); //these are the two subsets of the training data
   var testing = points.filter(ee.Filter.gte("random", SPLIT));
 
@@ -188,7 +187,6 @@ var classified_l8_20 = classifyLandsat8(
 );
 //print(classified, ' RF Propoerties')
 // //********************Calculate AREA per each class*****///
-
 var areaImage = ee.Image.pixelArea().divide(1e6).addBands(classified_l8_20);
 
 // Calculate Area by Class ****Using a Grouped Reducer***////
@@ -254,7 +252,6 @@ for (var a = 1; a < 7; a++) {
 }
 
 // // ******Part 5:Create a legend******///
-
 //Set position of panel
 var legend = ui.Panel({
   style: {
