@@ -1,8 +1,7 @@
 # Gaborone_LULC_change
-A comprehensive blog about this project has been published throgh a story map [HERE](https://storymaps.com/stories/8f482da3617043c7ba24aa54ee844b42)
+The complete publication of this project can be found in the **Springer Nature's Remote Sensing in Earth Systems Sciences** journal [HERE](https://link.springer.com/article/10.1007/s41976-024-00171-7) and a comprehensive 2023 ESRI's Climate Change challenge blog about this project has been published throgh a story map [HERE](https://storymaps.com/stories/8f482da3617043c7ba24aa54ee844b42)
 
-Random Forest Classification for Land Use Change in Gaborone, Botswana
-
+## Random Forest Classification for Land Use Change in Gaborone, Botswana
 ### Land Use Land Cover (LULC) Change VS Land Surface Temperature (LST)
 <img width="1235" alt="Screenshot 2024-01-08 at 14 49 55" src="https://github.com/BoineeloMoyo/Gaborone_LULC_change/assets/82944675/02c17a58-c4a5-43eb-9b1a-359db1ea4e8f">
 
