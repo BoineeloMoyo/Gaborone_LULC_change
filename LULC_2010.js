@@ -16,8 +16,7 @@ Map.centerObject(studyarea, 11);
 //Function to mask clouds using the quality band of Landsat 8.
 var cloudmask = function (image) {
   var qa = image.select("BQA");
-  /// Check that the cloud bit is off.
-  // See https://landsat.usgs.gov/collectionqualityband
+  /// Check that the cloud bit is off. See https://landsat.usgs.gov/collectionqualityband
   var mask = qa.bitwiseAnd(1 << 4).eq(0);
   return image.updateMask(mask);
 };
@@ -33,7 +32,7 @@ var panSharpen = function (image) {
   var pan = image.select("B8");
 
   // Convert to HSV, swap in the pan band, and convert back to RGB.
-  var huesat = rgb.rgbToHsv().select("hue", "saturation");
+  var huesat = rgb.rgbToHsv().select("hue", "saturation"); 
   var upres = ee.Image.cat(huesat, pan).hsvToRgb();
   return image.addBands(upres);
 };
