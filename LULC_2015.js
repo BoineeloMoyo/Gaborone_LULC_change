@@ -127,7 +127,6 @@ print("2015 Validation Kappa", kappa);
 var classified15 = composite2015.select(bands).classify(classifier);
 
 // ******Part 5:Create a legend******///
-
 // //Set position of panel
 var legend = ui.Panel({
   style: {
@@ -194,7 +193,6 @@ Map.add(legend);
 
 // ////******Part 6: Display the Final Land Cover Classification and Provide Export Options******
 // //////////////////////////////////////////////////////////////////////////////////////////////
-
 //Create palette for the final land cover map classifications
 var urbanPalette =
   "<RasterSymbolizer>" +
@@ -263,10 +261,9 @@ var areaChart = ui.Chart.image
   });
 print(areaChart);
 
-//***Calculate copiable area of each class - Just lazy to type :)***///
+//***Calculate copiable area of each class - Just lazy to type :)***//
 
 // for (var a = 0; a < 6; a++) {
-
 // var x = classified15.eq(a).multiply(ee.Image.pixelArea())
 //   var calc = x.reduceRegion({
 //     reducer: ee.Reducer.sum(),
