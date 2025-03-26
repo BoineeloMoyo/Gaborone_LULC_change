@@ -247,7 +247,7 @@ var areaChart = ui.Chart.image
       4: { color: "#f5deb7" },
       5: { color: "#cbe77e" },
     },
-  });
+  }); 
 print(areaChart);
 
 //****CALCULATE COPABLE AREA OF EACH CLASS***////////////////////
@@ -268,7 +268,6 @@ for (var a = 1; a < 7; a++) {
 }
 
 // ******Part 5:Create a legend******///
-
 // //Set position of panel
 var legend = ui.Panel({
   style: {
