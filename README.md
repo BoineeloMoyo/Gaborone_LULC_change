@@ -14,8 +14,7 @@ The classification is done using Landsat 8 and Landsat 7 imagery for the years 2
 1. Dataset
    The dataset used in this analysis consists of Landsat 8 and Landsat 7 satellite imagery. The Landsat images were selected based on their availability and suitability for land use change analysis. The dataset covers the years 2005, 2010, 2015, and 2020, providing a temporal perspective of land use changes in Gaborone.
 
-2. Pre-processing
-   2005 Image
+2. Pre-processing: 
    The 2005 Landsat image had some scan line errors that needed to be gap filled. Gap filling was performed using appropriate algorithms to fill in missing values and ensure a complete image. Additionally, the 2005 image was pan-sharpened to enhance its resolution for better classification accuracy.
 3. Classification
    The random forest algorithm was chosen for land use change classification due to its ability to handle multi-class classification problems effectively.
